@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Merriweather:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap");
+
+:root {
+  --main-bg-color: rgba(214, 153, 206, 0.884);
+  --font1: Dosis, sans-serif;
+  --font2: Dosis;
+}
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+.my-2{
+  margin-bottom: 32px;
+  margin-top: 32px;
+
+}
+
+.btn {
+  padding: 2px 11px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-family: var(--font2);
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  color: white;
+  background: var(--main-bg-color);
+}
+
+.form-input {
+  padding: 0 5px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 13px;
+  font-family: var(--font2);
+}
+.form-box input,textarea{
+  width:52vw;
+  padding:5px 6px;
+  margin:7px 0;
+  font-size: 18px;
+  font-family: var(--font2);
+  border: 2px solid var(--main-bg-color);
+  border-radius: 5px;
+
+}
